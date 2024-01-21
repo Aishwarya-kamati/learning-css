@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+       
+        .cantainer{
+            height: 200px;
+            width: 50vw;
+            background-color: aquamarine;
+        }
+        img{
+            animation: withname 3s ease-in-out  3 alternate-reverse ;
+            border: 2px solid black;
+        }
+        @keyframes withname{
+            from{
+                 width:20px;
+                height:10px ;
+
+            }
+            to{
+                width: 100px;
+                height: 200px;
+            }
+        }
+        
+         
+    </style>
+</head>
+<body>
+    <div class="cantainer">
+        <div class="box1">
+            <img src="https://i2.wp.com/css-tricks.com/wp-content/uploads/2020/03/cover.jpg?fit=1200%2C600&ssl=1" alt="image" width="200px" height="100px">
+        </div>
+     </div>
+</body>
+</html>
